@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupabati Fashion BD - রূপবতী ফ্যাশন বিডি | আপনার পছন্দের ফ্যাশন হাউজ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&display=swap');
+        body { font-family: 'Hind Siliguri', sans-serif; scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl md:text-3xl font-extrabold text-pink-700 tracking-tight">
+                Rupabati <span class="text-gray-800">Fashion BD</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 text-gray-700 font-semibold">
+                <a href="#" class="hover:text-pink-600 transition">হোম</a>
+                <a href="#categories" class="hover:text-pink-600 transition">ক্যাটাগরি</a>
+                <a href="#shop" class="hover:text-pink-600 transition">কালেকশন</a>
+            </div>
+
+            <div class="flex items-center space-x-5">
+                <a href="https://wa.me/8801894182350" target="_blank" class="text-green-600 text-3xl hover:scale-110 transition">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative bg-pink-50 py-16 md:py-24 overflow-hidden">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 z-10 text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">নিজেকে সাজান <br><span class="text-pink-600">সেরা সাজে</span></h1>
+                <p class="text-gray-600 text-xl mb-8">Rupabati Fashion BD-তে পাচ্ছেন প্রিমিয়াম কোয়ালিটির শাড়ি, থ্রি-পিস এবং লেডিস আইটেম।</p>
+                <a href="#shop" class="bg-pink-600 text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-pink-700 transition shadow-xl inline-block">অর্ডার করুন এখনই</a>
+            </div>
+            <div class="md:w-1/2 mt-10 md:mt-0">
+                <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600" alt="Fashion Banner" class="rounded-2xl shadow-2xl mx-auto border-8 border-white">
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="py-16 container mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center text-gray-800 mb-12">আমাদের ক্যাটাগরি</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="group relative rounded-2xl overflow-hidden shadow-lg h-80">
+                <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=500" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                    <h4 class="text-white text-2xl font-bold">থ্রি-পিস</h4>
+                </div>
+            </div>
+            <div class="group relative rounded-2xl overflow-hidden shadow-lg h-80">
+                <img src="https://images.unsplash.com/photo-1610030469668-93510ef2d32e?auto=format&fit=crop&w=500" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                    <h4 class="text-white text-2xl font-bold">শাড়ি</h4>
+                </div>
+            </div>
+            <div class="group relative rounded-2xl overflow-hidden shadow-lg h-80">
+                <img src="https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?auto=format&fit=crop&w=500" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                    <h4 class="text-white text-2xl font-bold">লেডিস আইটেম</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-gray-800 mb-10 text-center md:text-left">সেরা কালেকশন</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="border rounded-xl p-4 hover:shadow-2xl transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=400" class="w-full h-56 object-cover rounded-lg mb-4">
+                    <h5 class="text-lg font-bold text-gray-800">জামদানি শাড়ি</h5>
+                    <p class="text-pink-600 font-bold text-xl mt-2">৳ ৩,৫০০</p>
+                    <button onclick="orderWhatsApp('জামদানি শাড়ি')" class="mt-4 w-full bg-green-600 text-white py-2.5 rounded-lg hover:bg-green-700 transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> অর্ডার দিন
+                    </button>
+                </div>
+                <div class="border rounded-xl p-4 hover:shadow-2xl transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1583391733975-34190b4352fe?auto=format&fit=crop&w=400" class="w-full h-56 object-cover rounded-lg mb-4">
+                    <h5 class="text-lg font-bold text-gray-800">ডিজাইনার থ্রি-পিস</h5>
+                    <p class="text-pink-600 font-bold text-xl mt-2">৳ ২,৮০০</p>
+                    <button onclick="orderWhatsApp('ডিজাইনার থ্রি-পিস')" class="mt-4 w-full bg-green-600 text-white py-2.5 rounded-lg hover:bg-green-700 transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> অর্ডার দিন
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h4 class="text-2xl font-bold text-pink-500 mb-4">Rupabati Fashion BD</h4>
+                <p class="text-gray-400">আপনার সৌন্দর্য আমাদের অনুপ্রেরণা। আমাদের সাথে থাকার জন্য ধন্যবাদ।</p>
+            </div>
+            <div class="space-y-3">
+                <h4 class="text-xl font-bold mb-4">যোগাযোগ করুন</h4>
+                <p class="flex items-center gap-3 text-gray-300"><i class="fa-solid fa-phone text-pink-500"></i> 01894182350</p>
+                <p class="flex items-center gap-3 text-gray-300"><i class="fa-solid fa-envelope text-pink-500"></i> rupabatifashionbd@gmail.com</p>
+                <div class="flex space-x-6 mt-6">
+                    <a href="#" class="text-2xl hover:text-pink-500"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://wa.me/8801894182350" class="text-2xl hover:text-green-500"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500">
+            <p>© ২০২৬ Rupabati Fashion BD - রূপবতী ফ্যাশন বিডি | সর্বস্বত্ব সংরক্ষিত</p>
+        </div>
+    </footer>
+
+    <script>
+        const waNumber = "8801894182350";
+
+        function orderWhatsApp(product) {
+            const text = "আসসালামু আলাইকুম, আমি Rupabati Fashion BD - রূপবতী ফ্যাশন বিডি থেকে এই পণ্যটি অর্ডার করতে চাই: " + product;
+            const link = "https://wa.me/" + waNumber + "?text=" + encodeURIComponent(text);
+            window.open(link, '_blank');
+        }
+    </script>
+</body>
+</html>
